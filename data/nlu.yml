@@ -1,0 +1,366 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: PROFESSOR_SONDIPON_ADHIKARI
+  examples: |
+    - Computational Mechanics 
+    - vibration energy harvesting 
+    - Dynamics of Complex Engineering Systems Nanomechanics
+    - Mechanics of quasi-periodic lattices                                                      
+    - Mechanics of Functionally Graded Cellular Structures                                                      
+    - Wave Propagation in Cellular Metamaterials  
+    - piezoelectric material 
+
+- intent: PROFESSOR_MARTIN_BACHE
+  examples: |
+    - Fatigue & fracture of advanced structural metals 
+    - Cold dwell sensitivity in titanium alloys Crack initiation
+
+- intent: PROFESSOR_STEVE_BROWN
+  examples: |
+    -Computational Materials
+
+- intent: PROFESSOR_TIM_CLAYPOLE
+  examples: |
+    - Printing
+    - Coating
+    - Fluid Dynamics
+    - Rheology
+    - Sensors
+    - Printed Electronics
+    - Statistics
+    - Process Optimisation
+    - Manufacturing
+
+- intent: PROFESSOR_MARK_CROSS
+  examples: |
+    - Computational modelling 
+    - Centrifugal shape casting
+    - Metal-metal seal design
+    - turbine design
+
+- intent: PROFESSOR_DAVIDE_DEGANELLO
+  examples: |
+    - Fabrication by printing of thin film devices 
+    - roll-to-roll printing and coating technologies
+    - complex fluids rheology
+    - 3D printing 
+    - CFD modelling 
+
+- intent: PROFESSOR_WULF_DETTMER
+  examples: |
+    - Solid and fluid mechanics
+    - Computational fluid
+    - Structural finite elements
+    - Continuum mechanics, 
+    - constitutive modelling, 
+    - multiscale modelling
+    - Flight mechanics, 
+    - morphing aircraft
+
+- intent: PROFESSOR_JAMES_DURRANT
+  examples: |
+    - The Role of Electron Acceptors
+    - Stability and upscaling of OPV 
+    - Transparent Conductive Glass Substrates for PV Application
+
+- intent: PROFESSOR_MICHAEL_G._EDWARDS
+  examples: |
+    - Computational Methods for Partial Differential Equations
+    - Reservoir Simulation ,
+    - Aquifer Remediation, 
+    - Carbon Sequestration
+    - Darcy-Flux Approximation
+    - Convective flux approximation
+    - multidimensional upwind methods (Multi-D).
+    - Fracture modelling.
+    - Discretization dependent structured-unstructured gridding techniques.
+    - Multiscale Finite-volume methods (MSFV)
+    - Upscaling Methods.
+    - Adaptive grid methods
+
+- intent: PROFESSOR_YUNTIAN_FENG
+  examples: |
+    - Computational Mechanics
+    - Computational Engineering
+    - Computational Structural Dynamics
+    - Discrete Element Modelling
+    - Lattice Boltzmann method
+    - Fluid–solid interaction
+    - High performance computing
+
+- intent: PROFESSOR_MICHAEL_FRISWELL
+  examples: |
+    - Structural dynamics
+    - Morphing aircraft
+    - Improvement of finite element models using measured data
+    - Identification of damage location and extent using model based algorithms
+    - Rotating machinery dynamics
+    - Model reduction methods
+    - Modelling and analysis of structures with viscoelastic damping
+    - Dynamics of non-linear systems
+    - Acoustic emission
+    - Active vibration control
+
+- intent: PROFESSOR_DAVID_GETHIN
+  examples: |
+    - Net shape manufacturing
+    - Powder forming
+
+- intent: PROFESSOR_ANTONIO_GIL
+  examples: |
+    - In-silico modelling
+    - Computational Mechanics
+    - Large strain dynamics
+    - Fluid-Structure Interaction
+    - Electro-Magneto-Acousto-Mechanics
+    - Finite Element/Volume Methods
+    - Meshless Methods
+    - Reduced Order Modelling
+
+- intent: PROFESSOR_OUBAY_HASSAN
+  examples: |
+    - Unstructured Mesh Generation
+    - Computational Fluid Dynamics
+    - Computational Electromagnetics
+    - Parallel Processing
+
+- intent: PROFESSOR_NIDAL_HILAL
+  examples: |
+    - Water treatment
+    - Desalination
+    - Novel membrane separation processes
+    - Membrane nanotechnology
+    - Application of atomic force microscopy (AFM) to chemical and process engineering
+
+- intent: PROFESSOR_PAUL_HOLLAND
+  examples: |
+    - silicon integrated circuit technologies
+    - Power Integrated Circuit (PIC) Technologies.
+
+- intent: PROFESSOR_PETER_HOLLIMAN
+  examples: |
+    - Synthetic and materials chemistry
+    - Advanced devices such as photovoltaics (solar cells)
+    - High temperature thermal chemistry
+    - Steel manufacturing and value-added products
+    - Surface chemistry and sorption processes
+    - Water treatment
+    - Manufacturing optimisation
+
+- intent: PROFESSOR_RICHARD_JOHNSTON
+  examples: |
+    - X-ray microtomography
+    - Aerospace materials
+    - Characterisation
+    - Bioinspiration
+
+- intent: PROFESSOR_KAROL_KALNA
+  examples: |
+    - Simulation and modelling of semiconductor devices.
+
+- intent: PROFESSOR_HARSHINIE_KARUNARATHNA
+  examples: |
+    - Computational modelling
+    - Laboratory experimentation
+    - Coastal and estuarine hydrodynamics and morphodynamics
+    - Coastal flood risk
+    - Environmental impacts of marine renewables
+    - Nature-based coastal engineering
+    - Climate change impacts on the coastal environment
+
+- intent: PROFESSOR_ROBERT_LANCASTER
+  examples: |
+    - Miniaturised Testing
+    - Additive Layer Manufacturing (ALM) processes
+    - Nickel Superalloys (single crystals, polycrystalline)
+    - Thermo-mechanical Fatigue
+    - Fatigue Lifing
+    - Failure Analysis
+    - Non-Destructive Evaluation
+    - Titanium Alloys
+
+- intent: PROFESSOR_NICHOLAS_LAVERY
+  examples: |
+    - Additive Layer Manufacturing
+    - High Throughput Materials Characterisation
+    - Novel Alloy Development
+    - Multi-physics coupled Computational Fluids Dynamics
+    - Finite Element Analysis
+    - Life cycle assessment
+    - computational modelling
+
+- intent: PROFESSOR_ARTHUR_LEES
+  examples: |
+    - Structural Dynamics
+    - Rotor Dynamics
+    - Condition Monitoring
+    - Inverse Problems
+    - System Identification
+
+- intent: PROFESSOR_ROLAND_LEWIS
+  examples: |
+    - Solidification, flow and thermal stress in castings
+    - Natural and artificial ground freezing
+    - Heat and mass transfer in porous capillary bodies
+    - Consolidation and flow through porous media
+    - Multiphase flow in petroleum reservoirs
+    - Flow and Compaction of pharmaceutical powders
+
+- intent: PROFESSOR_CHENFENG_LI
+  examples: |
+    - Computational Engineering
+    - Data Mining and Visual Computing
+    - Civil and Structural Engineering
+    - Geomechanics, Oil & Gas Reservoir
+    - Concrete, Composite and Heterogeneous Material
+
+- intent: PROFESSOR_LIJIE_LI
+  examples: |
+    - Microelectromechanical Systems
+    - Nanoelectromechanical Systems
+    - Sensors and Actuators
+    - Optical MEMs
+    - RF MEMS
+    - Biological/Medical Transducers
+    - Micro-batteries
+
+- intent: PROFESSOR_SERENA_MARGADONNA
+  examples: |
+    - Materials Engineering
+
+- intent: PROFESSOR_IAN_MASTERS
+  examples: |
+    - Marine energy
+    - Ocean energy
+    - Wave
+    - Tidal turbine
+
+- intent: PROFESSOR_AMIT_MEHTA
+  examples: |
+    - Antennas
+    - Communication Systems including Tactical & 5G
+    - Sensors and Smart Cities
+
+- intent: PROFESSOR_KENNETH_MORGAN
+  examples: |
+    - Computational fluid dynamics
+    - Computational electromagnetics
+    - Mesh generation and adaptivity
+    - Wave propagation
+
+- intent: PROFESSOR_DAVID_PENNEY
+  examples: |
+    - Metallurgy
+    - Galvanising
+    - Metallic coatings
+    - Corrosion
+    - Stainless steel
+    - Zinc aluminium alloys
+    - External funding
+    - Industrial engagement
+    - Doctoral training
+
+- intent: PROFESSOR_DJORDJE_PERIC
+  examples: |
+    - Computational methods in solid, structural and fluid mechanics
+    - Computational modelling of material behaviour
+    - Multiscale modelling of materials and structures
+    - Fluid-structure interaction
+    - Free surface and interface flows
+    - Adaptive solution strategies for non-linear problems
+
+
+
+
+                                                   
